@@ -255,6 +255,112 @@ letter-spacing: 0%;
 {
     margin-top: 24px;
 }
+.c31{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    gap: 30%;
+    margin-top: 320px;
+    margin-bottom: 160px;
+}
+.c32{
+    width: 30%;
+    
+}
+.c33
+{
+
+font-weight: 700;
+font-size: 36px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+color: #0F241D;
+}
+.c34{
+color: #767676;
+font-weight: 400;
+font-size: 18px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+margin-top: 12px;
+}
+.c35
+{
+    width: 236px;
+height: 50px;
+
+border-radius: 4px;
+margin-top: 24px;
+opacity: 1;
+padding-top: 14px;
+padding-right: 32px;
+padding-bottom: 15px;
+padding-left: 32px;
+gap: 10px;
+background-color: #69B99D;
+outline: none;
+border: none;
+color: #F9F9F9;
+}
+.c36
+{
+
+font-weight: 400;
+font-size: 18px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+margin-bottom: 32px;
+color: #767676;
+}
+.c37
+{
+    margin-top: 40px;
+}
+.c38
+{
+    width: 100%;
+    max-width: 1536px;
+    background-color: #69B99D;
+    margin: auto;
+    height: 237px;
+    
+}
+.c39
+{
+    font-family: DM Sans;
+font-weight: 400;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+color: #F9F9F9;
+}
+.c41{
+    margin-top:24px
+}
+.c42{
+    margin-top:24px
+}
+.c44
+{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    height: 237px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.c43{
+    color: #F9F9F9;
+    display: flex;
+    gap: 32px;
+    font-size: larger;
+}
 
 @media(max-width:500px) {
     .header {
@@ -343,6 +449,8 @@ letter-spacing: 0%;
     .c24
     {
         width: 100%;
+        margin-top: 0px;
+        padding-top: 50px;
     }
     .c25{
         width: 90%;
@@ -353,8 +461,39 @@ letter-spacing: 0%;
     .c28{
         width: 70%;
         margin: auto;
+        margin-top: 30px;
     }
     .c27{
+       
+    }
+    .cqw{
         display: none !important;
+    }
+    .c31
+    {
+        flex-direction: column;
+        width: 100%;
+    }
+    .c32
+    {
+        width: 90%;
+        margin: auto;
+    }.c36
+    {
+         width: 90%;
+        margin-left: auto;
+    }
+    .c38{
+        width: 90%;
+        max-width: 500px;
+        margin: auto;
+background-color: #69B99D;
+    }
+    .c44{
+        width: 70%;
+        flex-direction: column;
+        justify-content: center;
+        gap: 50px;
+        margin: auto;
     }
 }
